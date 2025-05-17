@@ -23,7 +23,7 @@ int main()
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
     GLFWwindow *window;
-    window = glfwCreateWindow(800, 600, "ZMMR", NULL, NULL);
+    window = glfwCreateWindow(800, 600, "Meu Projeto", NULL, NULL);
     if (window == NULL)
     {
         cout << "Falha ao abrir a janela GLFW" << endl;
