@@ -3,7 +3,7 @@
 #   com CMake                   #
 # # # # # # # # # # # # # # # # #
 #                               #
-#       Autor: baldpirate       #
+#       Autor: psnogueira       #
 #       Data: 2025-07-17        #
 #       Licença: MIT            #
 #                               #
