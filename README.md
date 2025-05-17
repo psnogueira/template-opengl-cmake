@@ -1,11 +1,6 @@
 # Template OpenGL CMake
 
-Este projeto é um template básico para iniciar projetos OpenGL utilizando CMake. Ele fornece uma estrutura inicial para facilitar o desenvolvimento e a organização do código.
-
-## Funcionalidades
-
-- Suporte a CMake para fácil compilação multiplataforma
-- Exemplo básico com OpenGL
+Este projeto é um template básico de OpenGL utilizando CMake no Visual Studio Code. Ele fornece uma estrutura inicial para facilitar o desenvolvimento e a organização do código.
 
 ## Como usar
 
@@ -25,9 +20,9 @@ Este projeto é um template básico para iniciar projetos OpenGL utilizando CMak
 ## Dependências
 
 - CMake >= v3.16
-- OpenGL v3.3
-- GLFW v3.4
 - GLAD
+- GLFW v3.4
+- OpenGL v3.3
 
 As dependências podem ser gerenciadas via CMake ou adicionadas manualmente conforme necessário.
 
@@ -42,13 +37,15 @@ template-opengl-cmake/
 ├── src/
 │   └── main.cpp
 ├── CMakeLists.txt
+├── LICENSE.md
 ├── README.md
 ```
 
 - `build/`: Diretório gerado para arquivos de build.
 - `include/`: Arquivos de cabeçalho e dependências.
-- `src/`: Código-fonte principal do projeto.
+- `src/`: Código-fonte do projeto.
 - `CMakeLists.txt`: Arquivo de configuração do CMake.
+- `LICENSE.md`: Tipo de licença do projeto.
 - `README.md`: Documentação do projeto.
 
 ## Licença
